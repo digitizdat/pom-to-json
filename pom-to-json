@@ -19,6 +19,7 @@ pomParser.parse(opts, function(err, pomResponse) {
   console.log(JSON.stringify(pomResponse.pomObject));
 });
 
-EOF)
+EOF
+)
 
 echo "${obj}" |jq .
