@@ -15,12 +15,10 @@ pomParser.parse(opts, function(err, pomResponse) {
     process.exit(1);
   }
  
-  // The original pom xml that was loaded is provided.
-  console.log("XML: " + pomResponse.pomXml);
   // The parsed pom pbject.
-  console.log("OBJECT: " + JSON.stringify(pomResponse.pomObject));
+  console.log(JSON.stringify(pomResponse.pomObject));
 });
 
 EOF)
 
-jq . < "${obj}"
+echo "${obj}" |jq .
