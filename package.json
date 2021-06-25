@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "pom-parser": "^1.2.0"
+  }
+}
