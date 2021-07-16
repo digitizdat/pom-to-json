@@ -1,4 +1,7 @@
 {
+  "bin": {
+    "pom-to-json": "./pom-to-json"
+  },
   "dependencies": {
     "pom-parser": "^1.2.0"
   }
